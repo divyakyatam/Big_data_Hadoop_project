@@ -1,1 +1,3 @@
-# Big_data_Hadoop_project
+# Big_Data_Project
+
+twitter based analysis(text based analysis)

@@ -1,0 +1,8 @@
+
+>>>import matplotlib.pyplot as plt
+>>> import pandas
+>>> df = pandas.read_csv('/home/mic-08/Desktop/twitter.csv')
+>>> df = df.cumsum()
+>>> plt.figure()
+>>> df.plot(x='123',y='sno')
+>>> plt.show()

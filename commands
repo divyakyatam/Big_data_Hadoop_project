@@ -1,0 +1,23 @@
+no of getting distinct twitter querys
+querygrp = df.groupby('Query')
+querygrp.size()
+-------
+query to get info of a particular tweet::
+
+querygrp.get_group('twitter')
+---------
+maximum repeated query in tweet
+
+max(querygrp.size())
+min(querygrp.size())
+-------
+
+mapper and reducer commands 
+================================
+ chmod 755 mapper.py reducer.py 
+ cat tweet2.csv | python mapper.py
+ cat tweet2.csv | python mapper.py | python reducer.py
+ 
+ #!/usr/bin/python (if in code then the below command can be used)
+===================
+cat tweet2.csv | ./mapper.py | ./reducer.py

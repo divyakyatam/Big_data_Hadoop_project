@@ -1,0 +1,4 @@
+querygrp = df.groupby('name')
+querygrp.size()
+my_plot = querygrp.plot(kind='bar')
+plt.show()
